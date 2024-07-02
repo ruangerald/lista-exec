@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios</title>
+    <script src="../js/main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html">Voltar</a>
+    </header>
+    <main>
+        <div class="containerMenor">
+            <label for="numUm">Primeiro número:</label>
+            <input type="number" id="numUm">
+            <select name="operacao" id="operacao">
+                <option value="soma">Soma</option>
+                <option value="sub">Subtração</option>
+                <option value="mult">Multiplicação</option>
+                <option value="div">Divisão</option>
+            </select>
+            <label for="numDois">Segundo número:</label>
+            <input type="number" id="numDois">
+            <button onclick="exercicioNove()">Calcular</button>
+            <p id="respostaNove"></p>
+        </div>
+    </main>
+</body>
+</html>
